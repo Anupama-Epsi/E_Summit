@@ -1,0 +1,1 @@
+apache-maven-3.5.4\bin\mvn clean test -Dtest=com.epsilon.MainRun.mainFile
