@@ -3,7 +3,7 @@
  <suite name="TestNgMavenExampleSuite" parallel="false">
 <test name="TestNgMavenTest">
 <classes>
-<class name="com.epsilon.testCases.ExecutableTest" />
+<class name="com.es.testCases.ExecutableTest" />
 </classes>
 </test>
  </suite>

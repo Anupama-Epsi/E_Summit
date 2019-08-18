@@ -26,7 +26,7 @@ public class Global {
 	public void beforeTest() {
 		logger.beforeTestReporting();
 		logger.beforeTestExtentReport();
-		db.getDBConnection();
+		//db.getDBConnection();
 	}
 
 	@BeforeMethod
@@ -46,7 +46,7 @@ public class Global {
 	public void afterTest() {
 		logger.closeReporting();
 		logger.afterTestExtentReport();
-		db.closeDB();
+		//db.closeDB();
 		email.sendEmail();
 		actions.quitBrowser();
 	}
