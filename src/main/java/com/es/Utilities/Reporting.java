@@ -452,18 +452,6 @@ public class Reporting extends BrowserConfig {
 		}
 	}
 
-	/*
-	 * public void logPass(String stepName) { try { test.log(Status.PASS, stepName,
-	 * MediaEntityBuilder.createScreenCaptureFromPath(takeScreenshot()).build()); }
-	 * catch (IOException e) { // TODO Auto-generated catch block
-	 * e.printStackTrace(); } }
-	 * 
-	 * public void logFail(String stepName) { try { test.log(Status.FAIL, stepName,
-	 * MediaEntityBuilder.createScreenCaptureFromPath(takeScreenshot()).build()); }
-	 * catch (IOException e) { // TODO Auto-generated catch block
-	 * e.printStackTrace(); } }
-	 */
-
 	public String takeScreenshot() {
 		String ImageFileName = null;
 		try {
