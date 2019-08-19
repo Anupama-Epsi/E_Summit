@@ -67,19 +67,19 @@ public class Reporting extends BrowserConfig {
 			String username = System.getProperty("user.name");
 			String Reportpath = System.getProperty("user.dir") + "\\Reports";
 			File fileReport = new File(Reportpath);
-			if (!fileReport.exists())
-				fileReport.mkdir();
-			extendReportPath = System.getProperty("user.dir") + "\\Reports\\Reports" + Reporttimestamp;
-			File file = new File(extendReportPath);
+			//if (!fileReport.exists())
+				//fileReport.mkdir();
+			extendReportPath = System.getProperty("user.dir") + "\\Reports" ;
+			/*File file = new File(extendReportPath);
 			if (!file.exists()) {
 				file.mkdir();
 			}
 			File file1 = new File(extendReportPath + "\\ExtentReport");
 			if (!file1.exists()) {
 				file1.mkdir();
-			}
+			}*/
 			htmlReporter = new ExtentHtmlReporter(
-					extendReportPath + "\\ExtentReport\\ExtentReport" + Reporttimestamp + ".html");
+					extendReportPath + "\\ExtentReport" + ".html");
 			htmlReporter.loadXMLConfig(new File(System.getProperty("user.dir") + "/Reporting.xml"));
 			extent = new ExtentReports();
 			extent.attachReporter(htmlReporter);

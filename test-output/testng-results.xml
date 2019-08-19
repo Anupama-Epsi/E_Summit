@@ -2,16 +2,16 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-08-18T18:18:55Z" name="TestNgMavenExampleSuite" finished-at="2019-08-18T18:19:19Z" duration-ms="23194">
+  <suite started-at="2019-08-19T11:16:14Z" name="TestNgMavenExampleSuite" finished-at="2019-08-19T11:16:27Z" duration-ms="13137">
     <groups>
     </groups>
-    <test started-at="2019-08-18T18:18:55Z" name="TestNgMavenTest" finished-at="2019-08-18T18:19:19Z" duration-ms="23194">
+    <test started-at="2019-08-19T11:16:14Z" name="TestNgMavenTest" finished-at="2019-08-19T11:16:27Z" duration-ms="13137">
       <class name="com.es.testCases.ExecutableTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.es.testCases.ExecutableTest@3153ddfc]" started-at="2019-08-18T11:18:55Z" name="beforeTest" finished-at="2019-08-18T11:18:56Z" duration-ms="161" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.es.testCases.ExecutableTest@3153ddfc]" started-at="2019-08-19T04:16:14Z" name="beforeTest" finished-at="2019-08-19T04:16:14Z" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.es.testCases.ExecutableTest@3153ddfc]" started-at="2019-08-18T11:18:56Z" name="beforeMethod" finished-at="2019-08-18T11:19:05Z" duration-ms="8947" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.es.testCases.ExecutableTest@3153ddfc]" started-at="2019-08-19T04:16:14Z" name="beforeMethod" finished-at="2019-08-19T04:16:18Z" duration-ms="4208" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Login()[pri:0, instance:com.es.testCases.ExecutableTest@3153ddfc]" started-at="2019-08-18T11:19:05Z" name="Login" finished-at="2019-08-18T11:19:18Z" duration-ms="13389" status="PASS">
+        <test-method signature="Login()[pri:0, instance:com.es.testCases.ExecutableTest@3153ddfc]" started-at="2019-08-19T04:16:18Z" name="Login" finished-at="2019-08-19T04:16:24Z" duration-ms="5761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.es.testCases.ExecutableTest@3153ddfc]" started-at="2019-08-18T11:19:18Z" name="afterMethod" finished-at="2019-08-18T11:19:18Z" duration-ms="466" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.es.testCases.ExecutableTest@3153ddfc]" started-at="2019-08-19T04:16:24Z" name="afterMethod" finished-at="2019-08-19T04:16:24Z" duration-ms="533" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.es.testCases.ExecutableTest@3153ddfc]" started-at="2019-08-18T11:19:18Z" name="afterTest" finished-at="2019-08-18T11:19:19Z" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.es.testCases.ExecutableTest@3153ddfc]" started-at="2019-08-19T04:16:24Z" name="afterTest" finished-at="2019-08-19T04:16:27Z" duration-ms="2418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
