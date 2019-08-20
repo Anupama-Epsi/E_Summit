@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
- <suite name="TestNgMavenExampleSuite" parallel="false">
-<test name="TestNgMavenTest">
-<classes>
-<class name="com.es.testCases.ExecutableTest" />
-</classes>
-</test>
- </suite>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="TestCase1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
